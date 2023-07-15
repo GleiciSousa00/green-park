@@ -19,12 +19,9 @@
     "mysql2": "^3.5.1",
     "pdf-lib": "^1.17.1",
     "pdf-parse": "^1.1.1",
-    "pdf2json": "^3.0.4",
     "pdfmake": "^0.2.7",
-    "puppeteer": "^20.8.2",
     "roboto-font": "^0.1.0",
-    "sequelize": "^6.32.1",
-    "tedious": "^16.2.0"
+    "sequelize": "^6.32.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",

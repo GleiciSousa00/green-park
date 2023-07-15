@@ -1,16 +1,7 @@
-const csv = require('csv-parser');
 const fs = require('fs');
 const csvParser = require('csv-parser');
-const Boleto = require('../models/boleto.js');
-const Lote = require('../models/lote.js');
 const UploadService = require('../services/upload.service.js');
-const inputPdfPath = 'boletos-green-park.pdf';
 const pdfParse = require('pdf-parse');
-const { Op } = require('sequelize');
-const { PDFDocument } = require('pdf-lib');
-const os = require('os');
-const path = require('path');
-const outputDir = './output';
 
 class UploadController {
     async processPdfFile(req, res) {
